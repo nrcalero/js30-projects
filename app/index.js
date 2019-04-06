@@ -1,17 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import '../node_modules/materialize-css/dist/css/materialize.min.css';
-import Nav from './components/Nav';
-
-class App extends React.Component {
-  render() {
-    return (
-      <div>
-        <Nav />
-      </div>
-    )
-  }
-}
+import './index.css';
+import '../node_modules/bulma/css/bulma.min.css';
+import App from './components/App';
 
 ReactDOM.render(
   <App />,

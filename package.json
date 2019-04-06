@@ -7,7 +7,8 @@
     "presets": [
       "@babel/preset-env",
       "@babel/preset-react"
-    ]
+    ],
+    "plugins": ["@babel/plugin-proposal-class-properties"]
   },
   "scripts": {
     "start": "webpack-dev-server --open",
@@ -17,6 +18,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.4.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
@@ -28,8 +30,9 @@
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
-    "materialize-css": "^1.0.0-rc.2",
+    "bulma": "^0.7.4",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0"
   }
 }
